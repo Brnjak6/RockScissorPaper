@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Welcome to the <br />
+        <span class="rock">Rock </span><span class="scissor">Scissor</span>
+        <span class="paper">Paper </span><br />
+        game
+      </h1>
+      <h3>
+        The rock will beat scissors every time but will be beaten by paper.
+        <br />
+        Paper will beat rock but will be beaten by scissors in no time. <br />
+      </h3>
+      <h2>Choose your move below against computer</h2>
+
+      <div class="choice">
+        <img
+          src="./svg/rock.svg"
+          id="rock"
+          alt="rock"
+          width="200"
+          height="200"
+          onclick="mySelection(1)"
+        />
+
+        <img
+          src="./svg/scissor.svg"
+          id="scissor"
+          alt="scissor"
+          width="200"
+          height="200"
+          onclick="mySelection(2)"
+        />
+        <img
+          src="./svg/paper.svg"
+          id="paper"
+          alt="paper"
+          width="200"
+          height="200"
+          onclick="mySelection(3)"
+        />
+      </div>
+      <div class="winner">
+        <h4>You win</h4>
+      </div>
+      <div class="defeat">
+        <h4>You lost</h4>
+      </div>
+      <div class="draw">
+        <h4>It is a draw</h4>
+      </div>
+    </div>
+    <div class="sequel">
+      <button onclick="myReset()">Reset</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

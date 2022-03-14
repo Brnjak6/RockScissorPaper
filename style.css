@@ -1,0 +1,78 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(53, 53, 53);
+}
+
+.container {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+h3 {
+  margin: 3rem 0;
+
+  line-height: 2;
+}
+
+h2 {
+  margin-bottom: 5rem;
+}
+
+.rock {
+  color: rgb(247, 171, 136);
+}
+.paper {
+  color: rgb(230, 57, 178);
+}
+.scissor {
+  color: rgb(48, 18, 133);
+}
+
+#scissor {
+  margin: 0 5rem;
+}
+
+img {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(0.8);
+}
+
+.winner h4 {
+  color: green;
+}
+.defeat h4 {
+  color: red;
+}
+
+.winner,
+.defeat,
+.draw {
+  display: none;
+  font-size: 3rem;
+}
+
+.sequel {
+  display: none;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.sequel button {
+  outline: none;
+  font-size: 1.3rem;
+  border: 1px solid rgb(73, 64, 64);
+  background: transparent;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
