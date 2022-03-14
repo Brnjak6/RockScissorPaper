@@ -19,7 +19,6 @@ function mySelection(e) {
     defeat();
   }
   restartButton.style.display = 'flex';
-  console.log(e, computerChoice);
 }
 
 const win = () => {
