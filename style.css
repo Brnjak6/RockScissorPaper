@@ -1,5 +1,7 @@
 * {
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   color: rgb(53, 53, 53);
 }
@@ -7,6 +9,7 @@
 .container {
   text-align: center;
   text-transform: uppercase;
+  min-height: 100vh;
 }
 
 h1 {
@@ -14,7 +17,7 @@ h1 {
 }
 
 h3 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 
   line-height: 2;
 }
