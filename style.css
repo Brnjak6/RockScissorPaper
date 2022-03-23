@@ -1,8 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   color: rgb(53, 53, 53);
 }
 
@@ -75,4 +73,19 @@ img:hover {
   background: transparent;
   padding: 0.3rem 0.7rem;
   cursor: pointer;
+}
+
+.tries {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.choices {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#choices_title {
+  display: none;
+  margin-top: 1rem;
 }
